@@ -292,7 +292,7 @@
                 innerStringA.href = value ;
                 innerStringA.innerText = escapedString ;
 
-                if (stringContainsAnyOf(value, ['mp3', 'aac', 'mp4', 'jpg', 'png'])) {
+                if (stringContainsAnyOf(value, ['mp3', 'aac', 'mp4', 'jpg', 'png', 'gif', 'pdf'])) {
                   innerStringA.target = "_blank";
                 }
 
